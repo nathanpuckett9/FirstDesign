@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "app": "siliwiz",
+  "timestamp": 1747931002,
+  "rects": [
+    { "x": 13.41, "y": 6.17, "height": 350, "width": 368, "layer": "p substrate" },
+    { "x": 131.34, "y": 125, "height": 95, "width": 117, "layer": "n diffusion" },
+    { "x": 320.41, "y": 310.17, "height": 43, "width": 52, "layer": "p tap" },
+    { "x": 174.34, "y": 87, "height": 177.78, "width": 27.78, "layer": "polysilicon" },
+    { "x": 319.41, "y": 306.17, "height": 43, "width": 49, "layer": "metal1 via" },
+    { "x": 224.34, "y": 148, "height": 33.33, "width": 16.67, "layer": "metal1 via" },
+    { "x": 140.34, "y": 146, "height": 35, "width": 18, "layer": "metal1 via" },
+    { "x": 182.34, "y": 99, "height": 15, "width": 12, "layer": "metal1 via" },
+    { "x": 319.41, "y": 306.17, "height": 44, "width": 50, "layer": "metal1", "label": "vss" },
+    { "x": 213.34, "y": 139, "height": 56, "width": 31, "layer": "metal1", "label": "VDD" },
+    { "x": 170.34, "y": 89, "height": 36, "width": 35, "layer": "metal1", "label": "IN" },
+    { "x": 136.34, "y": 140, "height": 55, "width": 29, "layer": "metal1", "label": "VSS" }
+  ],
+  "graph": {
+    "dcSweep": false,
+    "minInVoltage": 0,
+    "maxInVoltage": 3.9,
+    "pulseDelay": 0,
+    "riseTime": 50,
+    "signalNames": "in i(vdd)*-1000",
+    "tranTime": 60000000
+  }
+}
